@@ -1,0 +1,94 @@
+<html>
+    <meta charset="UTF-8">
+
+    <meta name="description" content="templehook" />
+    <meta name="keywords" content="templehook, script, krnl, synapse, synapse x, temple, hook, combat warriors, combat warriors script, acs script, acs menu, kakah menu, kakah, kakazit, temple hub, templehub, temple menu" />
+    <meta property="og:title" content="God's heavenly script" />
+    <meta property="og:site_name" content="templehook" />
+    <meta property="og:description" content="templehook - o melhor script/hub brasileiro do roblox
+      https://discord.gg/tq7aaYMNje" />
+    <meta property="og:image" content="https://github.com/8zNNmSD60qih7def6GSNAKaAmQ6zRBnQ8V2pZax/templehook/blob/main/branding/Banner_Small.png?raw=true" />
+    <meta name="theme-color" content="#343d76" />
+    <meta name="twitter:card" content="summary_large_image" />
+
+<link rel="stylesheet" href="style.css">
+<link rel="icon" type="image/x-icon" href="/handlers/files/Logo_Transparent.png">
+
+
+  <title>|</title>
+    <script>
+        var Flip = false;
+
+        var CurStr = "";
+        var Pos = 0;
+        var Invert = false;
+
+        var TextL = "temple";
+        var TextR = "hook";
+
+        function loop() {
+            var Target = Flip ? TextR : TextL;
+
+            if (Pos > Target.length) {
+                Invert = true;
+            } else if (Pos < 0) {
+                if (Invert) {
+                    Flip = !Flip;
+                    Target = Flip ? TextR : TextL;
+
+                    Pos = 0;
+                }
+
+                Invert = false;
+            }
+
+            CurStr = Target.substring(0, Pos);
+            Pos += (Invert ? -1 : 1);
+
+            if (CurStr.length == 0)
+                CurStr = "|";
+
+            document.getElementsByTagName("title")[0].innerHTML = CurStr;
+          
+        }
+
+        setInterval(loop, 300);
+</script>
+
+  
+
+<br><br><br><br><br><br><br><br><br><br><br><br>
+  
+<body oncontextmenu="if (!window.__cfRLUnblockHandlers) return false; return false;" unselectable="on" onselectstart="if (!window.__cfRLUnblockHandlers) return false; return false;">
+<iframe width="0" height="0" src="http://www.youtube.com/embed/vKS7oUXwg_w?autoplay=1&loop=1" frameborder="0" allowfullscreen></iframe>​
+    <style>
+        body{
+            background-image:url("/handlers/files/showcaseimg.png");
+            background-repeat: no-repeat;
+            background-color:#101010;
+            background-attachment: fixed; 
+            background-size: 100% 100%;
+        }
+    </style>
+        <center>
+            <h1 style="opacity: 0.9; color: rgb(0, 255, 255); font-family: monospace">templehook</h1>
+            <a style="text-size:30; opacity: 0.9; color: rgb(0, 255, 255); font-family: monospace">/        </a>
+            <a style="text-size:30; opacity: 0.9; color: rgb(215, 215, 215); font-family: monospace" onmousedown="discord()" href=""> Discord</a>
+            <a style="text-size:30; opacity: 0.9; color: rgb(0, 255, 255); font-family: monospace">|</a>
+            <a style="text-size:30; opacity: 0.9; color: rgb(215, 215, 215); font-family: monospace" onmousedown="discord();" href="">Updates</a>
+            <a style="text-size:30; opacity: 0.9; color: rgb(0, 255, 255); font-family: monospace">|</a>
+                      <a style="text-size:30; opacity: 0.9; color: rgb(215, 215, 215); font-family: monospace" onmousedown="discord();" href="">Sugestões</a>
+            <a style="text-size:30; opacity: 0.9; color: rgb(0, 255, 255); font-family: monospace">|</a>
+            <a style="text-size:30; opacity: 0.9; color: rgb(215, 215, 215); font-family: monospace" href="supported.html">Jogos</a>
+            <a style="text-size:30; opacity: 0.9; color: rgb(0, 255, 255); font-family: monospace">        \ </a>
+            <br> <br>
+            <a style="text-size:25; opacity: 0.4; color: rgb(255, 255, 255); font-family: monospace"> \ wlrd | astro | revolution | peke / </a>
+            <br> <br>
+        </center>
+    </body>
+
+    <script>
+        function discord(){window.open("https://discord.gg/tq7aaYMNje");}
+    </script>
+
+</html>
