@@ -1,0 +1,369 @@
+<html>
+    <meta charset="UTF-8">
+
+    <meta name="description" content="templehook" />
+    <meta name="keywords" content="templehook, script, krnl, synapse, synapse x, temple, hook, combat warriors, combat warriors script, acs script, acs menu, kakah menu, kakah, kakazit, temple hub, templehub, temple menu" />
+    <meta property="og:title" content="God's heavenly script" />
+    <meta property="og:site_name" content="templehook" />
+    <meta property="og:description" content="templehook - o melhor script/hub brasileiro do roblox
+      https://discord.gg/tq7aaYMNje" />
+    <meta property="og:image" content="https://github.com/8zNNmSD60qih7def6GSNAKaAmQ6zRBnQ8V2pZax/templehook/blob/main/branding/Banner_Small.png?raw=true" />
+    <meta name="theme-color" content="#343d76" />
+    <meta name="twitter:card" content="summary_large_image" />
+
+<link rel="stylesheet" href="style.css">
+<link rel="icon" type="image/x-icon" href="/handlers/files/Logo_Transparent.png">
+
+  
+  <title>|</title>
+    <script>
+        var Flip = false;
+
+        var CurStr = "";
+        var Pos = 0;
+        var Invert = false;
+
+        var TextL = "temple";
+        var TextR = "hook";
+
+        function loop() {
+            var Target = Flip ? TextR : TextL;
+
+            if (Pos > Target.length) {
+                Invert = true;
+            } else if (Pos < 0) {
+                if (Invert) {
+                    Flip = !Flip;
+                    Target = Flip ? TextR : TextL;
+
+                    Pos = 0;
+                }
+
+                Invert = false;
+            }
+
+            CurStr = Target.substring(0, Pos);
+            Pos += (Invert ? -1 : 1);
+
+            if (CurStr.length == 0)
+                CurStr = "|";
+
+            document.getElementsByTagName("title")[0].innerHTML = CurStr;
+          
+        }
+
+        setInterval(loop, 300);
+</script>
+  
+<body>
+    <body style="background-color:#101010;">
+        <center>
+            <br><br><br>
+            <h1 style="opacity: 0.9; color: rgb(0, 255, 255); font-family: monospace">templehook - jogos suportados</h1>
+          
+            <a style="text-size:18; opacity: 0.9; color: rgb(215, 215, 215); font-family: monospace" onmousedown="discord()"> 
+              
+            <h1 style="opacity: 0.9; color: rgb(0, 255, 255); font-family: monospace">ACS 1.7.5</h1>
+                        
+            [Legit]<br>
+            * Silent Aim (Team Check, Visible Check, Target Part, Head Hitchance, Body Hitchance) <br>
+            * FOV (Size, Colors)<br>
+            * Crosshair (Width, Height, Gap)<br>
+            <br>
+           [Rage]<br>
+            * Spin Bot (Faz você ficar girando e te deixa sem cabeça)<br>
+            * Whizz Server (Coloca um som irritante para o server inteiro)<br>
+            * Suppress Server (Deixa a tela do server inteiro preta dos lados)<br>
+            * Crash Server (Congela o client dos players e laga o ping do servidor)<br>
+            * Lag Server (Crasha o servidor, desconectando todos os players)<br>
+            * Kill All (Mata todos os players)<br>
+            * God Mode All (Dá vida infinita para todos os players)<br>
+            * Heal All (Regenera a vida de todos os players)<br>
+            <br>
+           [Visuals]<br>
+            * ESP (Boxes 2d/3d, Tracers, Distance, Name, Health, Look Direction, Visible Only, Colors, Offscreen)<br>
+            * Combat Visuals (Weapon Model, Arm Model, Material Changer, Hide Viewmodels, Hide left arm, Bullet Tracers, China Hat & Colors)<br>
+            * Client Visuals (Ambient, Color Correction, Contrast, Saturation, Third Person, Field of View (FOV) e Skybox)<br>
+            <br>
+           [Local]
+            * Walk Speed (Muda a velocidade do seu character)<br>
+            * Run Walk Speed (Muda a velocidade do seu character enquanto você corre)<br>
+            * Crouch Walk Speed (Muda a velocidade do seu character enquanto você agacha)<br>
+            * Lay Walk Speed (Muda a velocidade do seu character enquanto você deita)<br>
+            * Jump Height (Muda o pulo do seu character)<br>
+            * No Fall Damage (Faz você não tomar dano de queda)<br>
+            * No Jump Damage (Desativa o cooldown ao pular)<br>
+            * Infinite Stamina (Como dito no nome, te deixa com stamina infinita.)<br>
+            * Anti Drown (Faz você não morrer afogado)<br>
+            * Anti Drown (Faz você não morrer de fome)<br>
+            <br>
+           [Others]
+            * Loop Kill (Mata um player em loop, até você desativar o toggle)<br>
+            * Loop God (Dá vida infinita para um player em loop, até você desativar o toggle)<br>
+            * Kill Once (Mata um player uma vez)<br>
+            * God Once (Dá vida infinita para um player uma vez)<br>
+            * Damage (Dá um dano uma quantidade de dano em um player que você escolheu)<br>
+            * Heal (Regerera uma quantidade de vida em um player que você escolheu)<br>
+            * Virus (Mata o player selecionado lentamente)<br>
+            <br>
+           [Misc]<br>
+            * Hit Sound (Hitmarker, Boink, TF2, Rust, Neverlose, Gamesense, Punch, QBeep, Windows XP, Roblox, MyNameJeff, Metal, Metal2, Vine Boom, Omori, Blood Gush, Osu, Osu Mania, Minecraft Damage, Minecraft Critical, Minecraft Hit, KSX Hitsound, Taser)<br>
+            * Kill Say (Diz uma mensagem escolhida por você ao matar um player)<br>
+            * Enable GPS, GPS Range (Permite você ativar e configurar o GPS do ACS)<br>
+            * Value Editor (Edita valores do jogo BoolValue, StringValue, NumberValue etc)<br>
+            * Building (Permite você construir usando presets que você construiu no ROBLOX Studio)<br>
+            * Build Unanchored (Faz você spawnar um bloco sem anchor)<br>
+            * Spawner (Faz você pegar armas existentes no jogo)<br>
+
+            <h1 style="opacity: 0.9; color: rgb(0, 255, 255); font-family: monospace">ACS 2.0.1</h1>
+                        
+            [Legit]<br>
+            * Silent Aim (Team Check, Visible Check, Target Part, Head Hitchance, Body Hitchance)<br>
+            * FOV (Size, Colors)<br>
+            * Crosshair (Width, Height, Gap)<br>
+            <br>
+           [Rage]<br>
+            * Spin Bot (Faz você ficar girando e te deixa sem cabeça)<br>
+            * Whizz Server (Coloca um som irritante para o server inteiro)<br>
+            * Suppress Server (Deixa a tela do server inteiro preta dos lados)<br>
+            * Crash Server (Congela o client dos players e laga o ping do servidor)<br>
+            <br>
+           [Visuals]<br>
+            * ESP (Boxes 2d/3d, Tracers, Distance, Name, Health, Look Direction, Visible Only, Colors, Offscreen)<br>
+            * Combat Visuals (Weapon Model, Arm Model, Material Changer, Hide Viewmodels, Hide left arm, Bullet Tracers, China Hat & Colors)<br>
+            * Client Visuals (Ambient, Color Correction, Contrast, Saturation, Third Person, Field of View (FOV), Skybox, No Suppress Effect, No Health Effect)<br>
+            <br>
+           [Local]<br>
+            * Walk Speed (Muda a velocidade do seu character)<br>
+            * Run Walk Speed (Muda a velocidade do seu character enquanto você corre)<br>
+            * Crouch Walk Speed (Muda a velocidade do seu character enquanto você agacha)<br>
+            * Lay Walk Speed (Muda a velocidade do seu character enquanto você deita)<br>
+            * Jump Height (Muda o pulo do seu character)<br>
+            * No Fall Damage (Faz você não tomar dano de queda)<br>
+            * No Jump Damage (Desativa o cooldown ao pular)<br>
+            * Infinite Stamina (Como dito no nome, te deixa com stamina infinita.)<br>
+            * Anti Drown (Faz você não morrer afogado)<br>
+            * Anti Drown (Faz você não morrer de fome)<br>
+           
+           [Misc]<br>
+            * Hit Sound (Hitmarker, Boink, TF2, Rust, Neverlose, Gamesense, Punch, QBeep, Windows XP, Roblox, MyNameJeff, Metal, Metal2, Vine Boom, Omori, Blood Gush, Osu, Osu Mania, Minecraft Damage, Minecraft Critical, Minecraft Hit, KSX Hitsound, Taser)<br>
+            * Kill Say (Diz uma mensagem escolhida por você ao matar um player)<br>
+            * Value Editor (Edita valores do jogo)<br>
+            * Building (Permite você construir usando presets que você construiu no ROBLOX Studio)<br>
+            * Spawner (Faz você pegar armas existentes no jogo)<br>
+            
+            <h1 style="opacity: 0.9; color: rgb(0, 255, 255); font-family: monospace">Rate My Avatar</h1>
+                        
+            [Local]<br>
+            * Walkspeed (16 - 500)<br>
+            * Jump Height (7.1 - 200)<br>
+            * No AFK (Tira sua tag de AFK)<br>
+            * Anti Rate (Tira o botao de perfil do seu personagem [SERVER])<br>
+            <br>
+           [Booth]<br>
+            * Booth Sniper (Automaticamente pega uma cabine para você)<br>
+            * Auto Blacklist (Da blacklist em todos jogadores da sua cabine)<br>
+            * Anti Blacklist (Permite você entrar em cabines onde esta na blacklist)<br>
+            * Booth Text (Texto da cabine)<br>
+            * Booth Image (Imagem da cabine)<br>
+            * Update Booth (Atualiza a sua cabine com os argumentos do booth text e booth image)<br>
+            * Abandon Booth (Abandona sua cabine)<br>
+            <br>
+           [Rating]<br>
+            * Rate all random (Classifica todos jogadores com estrelas aleatorias)<br>
+            * Rate All (Classifica todos jogadores com os argumentos do amount of stars)<br>
+            * Amount of Stars (1 - 5, A quantia de estrelas que vai dar)<br>
+            <br>
+           [Tools]
+            * Image Sign (Pega a placa de imagem [GAMEPASS])<br>
+            * Text Sign (Pega a placa de texto [GAMEPASS])<br>
+            * Stop Sign (Pega a placa de pare [GAMEPASS])<br>
+            <br>
+           [Functions]
+            * Open Shop (Abre a loja do jogo)<br>
+            * Respawn (Respawna seu personagem)<br>
+            * Drop Tools (Dropa todos seus itens)<br>
+            <br>
+           [Teleports]
+            * Use Display Names (Usa display names para os teleportes)<br>
+            * Player Name (Nome do jogador que quer teleportar)<br>
+            * Teleport To Player (Teleporta ao jogador escolhido)<br>
+            * Locations (Selecionar a localização onde quer ser teleportado)<br>
+             - Shop, Shop Sign, Spawn, Stage, Top Rated, Tree 1, Tree 2, Easter Egg, Lounge Inside, Lounge Outside, Rate my avatar booths, Ask me anything booths, Guessing booths. -<br>
+            * Teleport (Teleporta a localização selecionada) <br>
+           [Knight]<br>
+            * Knight Sniper (Automaticamente vira um knight quando tem espaço livre)<br>
+            * Get Sword (Spawna uma espada para você)<br>
+            <br>
+           [Sword]<br>
+            * Sword Dupe (Duplica suas espadas)<br>
+            * Count Swords (Conta quantas espadas você tem)<br>
+            * Equip Swords (Equipa todas espadas que você tem)<br>
+            * Demesh Swords (Tira a mesh de todas espadas que você tem<br>
+            * Demesh Held Swords (Tira a mesh das espadas que você esta segurando)<br>
+            * Drop Swords (Dropa todas espadas no chão)<br>
+            <br>
+           [Sword Vis]<br>
+            * Spin Circle (Faz suas espadas girar em um circulo)<br>
+            * Spin Spiral (Faz suas espadas girar em um espiral)<br>
+            * Circle Character Offset (Muda a distancia das espadas ao seu corpo)<br>
+            * Circle Sword Offset (Muda a distancia de espada a espada [APENAS START CIRCLE])<br>
+            * Spiral Character Offset (Muda a distancia das espadas ao seu corpo)<br>
+            * Spiral Sword Offset (Muda a distancia de espada a espada [APENAS START SPIRAL])<br>
+            * Start Circle (Inicia um circulo estatico)<br>
+            * Start Spiral (Inicia um espiral estatico)<br>
+            <br>
+           [Sword Grip]<br>
+           - Posições<br>
+            * Forward<br>
+            * Pos<br>
+            * Right<br>
+            * Up<br>
+            <br>
+            * Update Grip (Atualiza a posição da sua espada baseado nas posições)<br>
+            * Reset Grip (Reseta a posição da sua espada ao normal)<br>
+            <br>
+           [Visuals]<br>
+            * ESP [UNIVERSAL]<br>
+            * Client Visuals [UNIVERSAL]
+
+           <h1 style="opacity: 0.9; color: rgb(0, 255, 255); font-family: monospace">Generic Roleplay Gaem</h1>
+        
+           [Character]<br>
+           * Walkspeed (16 - 35 | Deixa você mais rapido)<br>
+           * Jesus (Caminhar sobre a agua)<br>
+           * Noclip (Caminhar atraves de paredes)<br>
+           * Name hider (Esconde seu nome)<br>
+           * Anti Wanted (Esconde sua tag de procurado)<br>
+           * Anti Rent (Esconde seu alugel)<br>
+           * Anti Thin (Não ficar magro com fome)<br>
+           * Body Spammer (Respawna você varias vezes e cria muitos corpos)<br>
+           <br>
+          [Vehicles]<br>
+           * Vehicle Flight (Voar com seu kart)<br>
+           * Vehicle Speed (Modifica a velocidade do seui kart)<br>
+           * Wheel Height (Aumentar a altura das rodas)<br>
+           * Bring Kart (Teleportar seu kart ate você)<br>
+           <br>
+          [Weapons]
+           * Sword Reach (4 - 50 | Aumenta o alcance da espada)<br>
+           * Hitbox Extender (2 - 75 | Aumenta a hitbox dos jogadores e barbaros)<br>
+           <br>
+          [Misc]<br>
+           * Autofarm (Farma dinheiro para você | Precisa de $300)<br>
+           * Anti Staff (Sai do jogo quando um membro da staff entra)<br>
+           <br>
+          [Utility]
+           * Play Sounds (Toca todos os sons do jogo (FE))<br>
+           * Instant Respawn (Respawna você instantaneamente)<br>
+           * Fix Network (Arruma o bug de delay apos teleportar)<br>
+           * Rounded Character (Deixa seu personagem redondo denovo)<br>
+           * Remove Team Only (Permite você subir na area do lider)<br>
+           * Clear Notifications (Limpa todas notificações)<br>
+           * Spectate Mode (Permite você spectar outros usuarios)<br>
+           * Get Signs (Recebe todas placas do jogo)<br>
+           <br>
+          [Leader Utility]<br>
+           * Raise All (Aumenta o preço de tudo)<br>
+           * Lower All (Abaixa o preço de tudo)<br>
+           * Resign (Sai do time do lider)<br>
+           <br>
+          [Game Visuals]<br>
+           * Money Tree ESP (Mostra as arvores de dinheiro)<br>
+           * Fruit Tree ESP (Mostra as arvores de comida)<br>
+           * Body ESP (Mostra os corpos)<br>
+           * Dumpster ESP (Mostra os lixoes)<br>
+           * Banana ESP (Mostra as armadilhas)<br>
+           * Barbarian ESP (Mostra os barbaros)<br>
+           * Kart ESP (Mostra os karts)<br>
+           * Anti Rain (Remove a chuva)<br>
+           * Rain Intensity (0-5 | Força da chuva (CLIENT))<br>
+          [ESP] - Universal<br>
+          [Client Visuals] - Universal<br>
+          <br>
+          [Normal Teleports]<br>
+          <br>
+           *  Choose place (Escolha o lugar onde quer teleportar)<br>
+              - Castle Middle, Castle Dock, Castle Statue, Doctor Office, Weapon Store, Janitor Area, Beach, Watchtower [1], Watchtower [2], Watchtower [3], Watchtower [4], Guard House, Prison, Ice Mountain, Farmkarts, Karl Karts, Race Track, Rice Farm [1], Rice Farm [2], Village Middle, Peasant Spawn, Barbarian Spawn, Barbarian Village, Council Room, Statues, Mountain, Mountain Lake, Arena, Allys, Lobby<br>
+           *  Teleport (Teleporta seu personagem ate a localização)<br>
+           <br>
+          [Vehicle Teleports]<br>
+          <br>
+           *  Choose place (Escolha o lugar onde seu carro vai teleportar)<br>
+              - Castle Middle, Castle Dock, Castle Statue, Doctor Office, Weapon Store, Janitor Area, Beach, Watchtower [1], Watchtower [2], Watchtower [3], Watchtower [4], Guard House, Prison, Ice Mountain, Farmkarts, Karl Karts, Race Track, Rice Farm [1], Rice Farm [2], Village Middle, Peasant Spawn, Barbarian Spawn, Barbarian Village, Council Room, Statues, Mountain, Mountain Lake, Arena, Allys, Lobby<br>
+           *  Teleport Vehicle (Teleporta seu personagem ate a localização)
+
+           <h1 style="opacity: 0.9; color: rgb(0, 255, 255); font-family: monospace">Treelands Legacy</h1>
+
+           [Character]<br>
+           * Walk Speed (Muda a velocidade do seu character)<br>
+           * Jump Height (Muda o pulo do seu character)<br>
+           <br>
+          [Vehicles]<br>
+           * List of Vehicles ('lil buggy, Off-Roader, Mini Truck, Pickup Truck, Crew Cab, Cargo Truck, ATV, Dump Truck, Souper Car, UFO, 'lil bugger, Race Car, Monster Truck, Sleigh)<br>
+           * Spawn Car (Permite você spawnar o carro selecionado)<br>
+           * Buy Car [Silver] (Faz você comprar o carro selecionado com silver)<br>
+           * Buy Car [Gold] (Faz você comprar o carro selecionado com gold)<br>
+           * Buy All Cars [Silver] (Faz você comprar todos os carros com silver)<br>
+           * Buy All Cars [Gold] (Faz você comprar todos os carros com gold)<br>
+           <br>
+          [Misc]<br>
+           * Auto Gold (Coleta gold para você)<br>
+           * Infinite Torch (Deixa sua tocha infinita)<br>
+           * Break Garage (Deixa a garagem do jogo impossivel de usar)<br>
+           * Collect Gold (Coleta gold apenas uma vez)<br>
+           * Buy Torch (Compra a tocha)<br>
+           <br>
+          [Fruits]<br>
+           * Modify Fruit Type<br>
+           * Modify Fruit Value<br>
+           <br>
+           * Modify Fruit (Modifica a fruta selecionada com os argumentos)<br>
+           * Dupe Fruit (Duplica a fruta selecionada)<br>
+           * Delete Fruit (Deleta a fruta selecionada)<br>
+           * Modify All Fruits (Modifica todas as frutas com os argumentos)<br>
+           * Dupe All Fruits (Duplica todas as frutas)<br>
+           * Delete All Fruits (Delete todas as frutas)<br>
+           * Reload Fruits (Recarrega a lista de frutas)<br>
+           * Reload Modifiers (Recarrega a lista de modifiers)<br>
+           <br>
+          [Teleports]<br>
+           * Locations<br>
+             * Your Tree<br>
+             * Store<br>
+             * Cave Entrance<br>
+             * Forest<br>
+             * TL Auto<br>
+             * Queen Of Treelands<br>
+           * Normal Fruit Locations<br>
+             * Orange 1<br>
+             * Orange 2<br>
+             * Peach<br>
+             * Apples 1<br>
+             * Apples 2<br>
+             * Apples 3<br>
+             * Watermelon<br>
+             * Banana 1<br>
+             * Banana 2<br>
+             * Blueberry 1<br>
+             * Blueberry 2<br>
+           * Misc Fruit Locations<br>
+             * Orange Crystal Cave<br>
+             * Cave<br>
+             * Plum<br>
+             * Potato 1<br>
+             * Potato 2<br>
+           * Fruit Finder<br>
+             * Select Fruit<br>
+             * Search (Procura pela fruta)<br>
+             * Teleport (Teleporta ate a fruta)<br>
+             <br>
+          [Visuals]<br>
+           * ESP (Boxes 2d/3d, Tracers, Distance, Name, Health, Look Direction, Visible Only, Colors, Offscreen)<br>
+           <br>
+           <br>
+           templehook ™ - 2023
+                </a>
+        </center>
+    </body>
+</html>
